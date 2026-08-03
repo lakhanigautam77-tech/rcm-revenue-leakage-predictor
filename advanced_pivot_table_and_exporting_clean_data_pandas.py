@@ -13,4 +13,4 @@ display(denied_summary)
 # This packages our clean data into new CSV files and saves them to our computer
 df.to_csv('Cleaned_RCM_Data_for_PowerBI.csv', index=False)
 denied_summary.to_csv('RCM_Summary_Table.csv', index=False)
-print("\n🎉 Pipeline Complete! Data is clean, scored, and ready for Power BI. 🎉")
+print("Pipeline Complete! Data is clean, scored, and ready for Power BI.")
